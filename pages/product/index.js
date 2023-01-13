@@ -1,0 +1,10 @@
+function ProductList(){
+    return(
+        <>
+            <li>product 1</li>
+            <li>product 2</li>
+            <li>product 3</li>
+        </>
+    )
+}
+export default ProductList
