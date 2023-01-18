@@ -1,0 +1,44 @@
+{
+  "dashboard":[
+      {
+        "id" : 1,
+        "posts" : 5,
+        "likes":258,
+        "followers":500,
+        "following" : 50
+      },
+      {
+        "id" : 2,
+        "posts" : 5,
+        "likes":200,
+        "followers":500,
+        "following" : 50
+      }
+    ],
+    "news": [
+      {
+        "id": 1,
+        "title": "News 1",
+        "desc" : "deskrispsi News 1",
+        "category": "Berita"
+      },
+      {
+        "id": 2,
+        "title": "News 2",
+        "desc" : "deskrispsi News 2",
+        "category": "sports"
+      },
+      {
+        "id": 3,
+        "title": "News 3",
+        "desc" : "deskrispsi News 3",
+        "category": "Berita"
+      },
+      {
+        "id": 4,
+        "title": "News 4",
+        "desc" : "deskrispsi News 4",
+        "category": "Berita"
+      }
+    ]
+  }
