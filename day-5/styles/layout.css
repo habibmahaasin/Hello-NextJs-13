@@ -1,0 +1,30 @@
+.header-section {
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-section {
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+.about-section, .home-section, .project-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.image-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
