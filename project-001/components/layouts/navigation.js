@@ -6,7 +6,7 @@ export default function Navigation(){
     const router = useRouter()
 
     return(
-      <nav class="navbar fixed-bottom bg-nav container-fluid">
+      <nav className="navbar fixed-bottom bg-nav container-fluid">
           <div className="col-4 d-flex justify-content-center menu-1">
             <Link className={router.pathname == "/" ? "icon-nav active-nav" : "icon-nav"} href={'/'}>
               <BiHomeAlt/>

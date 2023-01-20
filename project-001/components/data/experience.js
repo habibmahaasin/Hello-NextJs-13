@@ -1,14 +1,14 @@
 export const Experience = [
     {
         id : 1,
-        company : 'SEA Laboratory',
-        as : 'Laboratory Asisstant',
-        time : 'Jul 2021 - Jul 2022'
+        company : 'Telkom Indonesia',
+        as : 'Front-End Dev Intern',
+        time : 'Jul 2022 - Now'
     },
     {
         id : 2,
-        company : 'Telkom Indonesia',
-        as : 'Front End Developer Intern',
-        time : 'Jul 2022 - Now'
+        company : 'SEA Laboratory',
+        as : 'Laboratory Asisstant',
+        time : 'Jul 2021 - Jul 2022'
     },
 ]
