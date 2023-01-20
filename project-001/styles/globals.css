@@ -1,0 +1,180 @@
+:root {
+  --gutter: 20px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-web-app{
+  max-width: 480px;
+  min-width: none;
+  margin-top: 60px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px 30px 90px 30px;
+}
+
+.active-nav svg{
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.active-nav p{
+ display: none;
+}
+
+.icon-nav {
+  color: #056676;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: -10px;
+  transition: display 5s;
+}
+
+.icon-nav:hover{
+  color: #333333;
+}
+
+.text-nav{
+  font-size: 12px;
+}
+
+.bg-nav {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.3px);
+  -webkit-backdrop-filter: blur(11.3px);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-width: 480px;
+}
+
+.header-web-app{
+  padding: 4px;
+  max-width: 480px;
+}
+
+.header-web-app a{
+  color: black;
+}
+
+.bg-header{
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.3px);
+  -webkit-backdrop-filter: blur(11.3px);
+}
+
+.image-container {
+  width: 100%;
+  position: unset !important;
+}
+
+.image-container > .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.image-container-index > .image {
+  object-fit: contain;
+  width: 95% !important;
+  position: relative !important;
+  height: 100px !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.image-container-index > .image:hover {
+  border: 2px solid rgba(0, 0, 0, 0.175);
+}
+
+.project-card .title-span span, .page-title{
+  background: #fafafa;
+  text-align: center;
+  color: #056676;
+  padding: 8px 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+}
+
+.page-title span, .intro span, .mini-title span{
+  background-color: #056676;
+  color: white;
+  padding: 0px 5px;
+}
+
+.project-card{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.loading-bar{
+  margin-top: 30vh;
+  height: 100vh;
+  color: #056676;
+}
+
+.tech {
+  display: flex;
+  justify-content: right;
+}
+
+.tech span{
+  background: #056676;
+  color: white;
+  padding: 0px 4px;
+  font-size: 12px;
+}
+
+.mini-title{
+  margin-top: -10px;
+}
+
+.horizonal-slider {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: repeat(12, calc(50% - var(--gutter) * 2));
+  grid-template-rows: minmax(150px, 1fr);
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.25 * var(--gutter));
+  list-style: none;
+  padding: 10px;
+}
+
+.horizontal-slider-container {
+  width: 100%;
+  overflow-y: none;
+  height: 100px;
+}
+
+.item {
+  border: 1px solid black;
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+}
