@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import Image from "next/legacy/image";
+import Image from 'next/image'
 
 function ProjectsPage() {
   const [isLoading,setIsLoading] = useState(true)
